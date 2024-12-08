@@ -8,7 +8,7 @@ end
 
 U.print_table_2d = function(table)
     for key, row in pairs(table) do
-        local str = key .. ': '
+        local str = key .. ':\t'
         for _, col in pairs(row) do
             str = str .. col .. ' '
         end
